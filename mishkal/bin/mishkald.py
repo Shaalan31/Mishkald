@@ -24,7 +24,7 @@ class mishkald():
         self.running = True
         self.port = 6123
         self.bufferSize = 65536
-        self.debug = True
+        self.debug = False
         self.sockets = []
         self.acceptSock = None
         self.vocalizer = None
